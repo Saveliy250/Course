@@ -105,7 +105,7 @@ console.log(countSmileys([':-)', ';~D']))
 
 function sortArray(array) {
     let odd = []
-    array.forEach((element, i) => {
+    array.forEach((element) => {
         if (element % 2 !== 0) {
             odd.push(element)
         }
